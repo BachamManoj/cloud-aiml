@@ -6,8 +6,8 @@ from tensorflow.keras.applications import VGG16
 from tensorflow.keras import layers
 
 # Paths
-train_path = "C:\\Users\\kurra\\Downloads\\archive\\Training"
-test_path = "C:\\Users\\kurra\\Downloads\\archive\\Testing"
+train_path = "https://mriimages30709.s3.us-east-1.amazonaws.com/dataset/Training/"
+test_path = "https://mriimages30709.s3.us-east-1.amazonaws.com/dataset/Testing/"
 
 # Data generator
 datagen = ImageDataGenerator(rescale=1./255)
