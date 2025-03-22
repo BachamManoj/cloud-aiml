@@ -9,7 +9,7 @@ app = Flask(__name__)
 model = load_model('brain_tumor_vgg16_model1.h5')
 
 CLASS_NAMES = ['glioma', 'meningioma', 'notumor', 'pituitary']
-
+#
 
 @app.route('/')
 def home():
